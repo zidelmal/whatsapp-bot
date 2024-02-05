@@ -3,7 +3,7 @@ from without_image.whatsApp import WhatsApp
 
 with WhatsApp() as bot:
 
-    data = bot.get_recipients('Yassir', "")
+    data = bot.get_recipients('', "")
     data['received'] = False
     bot.land_on_whatsapp()
     sleep(15)
